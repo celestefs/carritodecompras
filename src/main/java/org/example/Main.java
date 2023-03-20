@@ -25,6 +25,7 @@ public class Main {
         Descuento descuento = new DescuentoFijo(126);
         carrito.setDescuento(descuento);
 
+
         System.out.println("Precio total: " + carrito.precio());
     }
 }
